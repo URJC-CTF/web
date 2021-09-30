@@ -723,10 +723,53 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Tools
+--------------------------------------------------------------*/
+
+.tools {
+    padding: 60px 0;
+}
+
+.tools h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.tools li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tool-btn-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool-link {
+  background-color: #A4CB40;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+  
+/* Darker background on mouse-over */
+.tool-link:hover {
+   background-color: #86a735;
+   color: white;
+}
+
+/*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 
 .cta {
+    background: #2F323B;
+    color: #fff;
     padding: 60px 0;
 }
 
@@ -735,22 +778,8 @@ section {
     font-weight: 700;
 }
 
-.cta .cta-btn {
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px;
-    background: var(--color);
-}
-
-.cta .cta-btn:hover {
-    color: var(--color);
+.cta p {
+    color: #fff;
 }
 
 @media (max-width: 1024px) {
@@ -773,13 +802,7 @@ section {
 --------------------------------------------------------------*/
 
 .faq {
-    background: #2F323B;
-    color: #fff;
     padding: 60px 0;
-}
-
-.faq p {
-    color: #fff;
 }
 
 .faq .faq-list {
@@ -823,7 +846,8 @@ section {
 }
 
 .faq .faq-list .collapsed {
-    color: #fff;}
+    color: #2F323B;
+}
 
 .faq .faq-list .collapsed:hover {
     color: var(--color);
