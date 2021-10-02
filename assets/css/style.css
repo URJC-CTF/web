@@ -579,6 +579,15 @@ section {
 # materials
 --------------------------------------------------------------*/
 
+.materials .semi {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.materials .icon {
+    color: #CC331F
+}
+
 .materials .nav-tabs {
     border: 0;
 }
@@ -607,6 +616,7 @@ section {
 
 .materials .nav-link:hover {
     color: var(--color);
+    border-color: var(--color);
 }
 
 .materials .nav-link.active {
