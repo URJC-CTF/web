@@ -29,3 +29,5 @@ ESTEGANOGRAFÍA
 
 FORENSE
  - Volatility (instalada en la OVA): https://www.volatilityfoundation.org/
+ - WireShark (instalada en la OVA): https://www.wireshark.org/
+ - Autopsy (instalada en la OVA): https://www.autopsy.com/
