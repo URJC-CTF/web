@@ -8,3 +8,4 @@ Herramientas utilizadas:
  - WFuzz (instalada en la OVA): https://www.kali.org/tools/wfuzz/
  - PayloadsAllTheThings: https://github.com/swisskyrepo/PayloadsAllTheThings
  - SQLMap (instalada en la OVA): https://github.com/sqlmapproject/sqlmap
+ - Gopherus: https://github.com/tarunkant/Gopherus
