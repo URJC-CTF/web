@@ -1,0 +1,20 @@
+----------------------------------------------
+ MÓDULO II: OSINT, ESTEGANOGRAFÍA y FORENSE
+----------------------------------------------
+
+ESTEGANOGRAFÍA
+ - Exiftool (instalada en la OVA): https://exiftool.org/
+ - Binwalk (instalada en la OVA): https://github.com/ReFirmLabs/binwalk
+ - Steghide (instalada en la OVA): http://steghide.sourceforge.net/
+ - Stegseek (instalada en la OVA): https://github.com/RickdeJager/stegseek
+ - Stego-LSB: https://pypi.org/project/stego-lsb/
+ - Audacity: https://audacity.es/
+ - Sonic Visualizer: https://www.sonicvisualiser.org/
+ - Spectrum Analyzer: https://academo.org/demos/spectrum-analyzer/
+ - Hexdump (instalada en la OVA): https://man7.org/linux/man-pages/man1/hexdump.1.html
+ - Binwalk (instalada en la OVA): https://github.com/ReFirmLabs/binwalk
+ - Strings (instalada en la OVA): https://linux.die.net/man/1/strings
+
+FORENSE
+ - Volatility (instalada en la OVA): https://www.volatilityfoundation.org/
+ - WireShark (instalada en la OVA): https://www.wireshark.org/
