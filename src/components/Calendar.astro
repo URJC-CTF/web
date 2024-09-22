@@ -1,0 +1,68 @@
+---
+import calendarData from '../data/calendarData';
+
+interface CalendarMonth {
+    name: string;
+    days: {
+        date: number;
+        module: string;
+        location: string;
+    }[];
+}
+
+interface CalendarType {
+    year: number;
+    months: CalendarMonth[];
+    startTime: string;
+    endTime: string;
+}
+
+const { year, months, startTime, endTime } = calendarData as CalendarType;
+---
+
+<div class="calendar">
+    <h1>CALENDARIO</h1>
+    <p>Horario de {startTime} a {endTime}, puedes observar el Aula y contenido de cada día pulsando encima de cada una de las fechas.</p>
+    
+    <div class="months">
+        {months.map((month) => (
+            <div class="month">
+                <h2>{month.name.toUpperCase()}</h2>
+                <div class="days">
+                {month.days.map((day) => (
+                    <button class="day" title={day.module && `${day.module}${day.location ? `: ${day.location}` : ''}`}>
+                        {day.date}
+                    </button>
+                ))}
+                </div>
+            </div>
+        ))}
+    </div>
+</div>
+
+<style>
+    .calendar {
+        background-color: #2c2c2c;
+        color: white;
+        padding: 20px;
+    }
+    .months {
+        display: flex;
+        justify-content: space-between;
+    }
+    .month {
+        margin: 10px;
+    }
+    .days {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .day {
+        background-color: #8cc63f;
+        border: none;
+        color: white;
+        padding: 10px;
+        margin: 5px;
+        cursor: pointer;
+    }
+</style>
